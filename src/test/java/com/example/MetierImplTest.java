@@ -1,8 +1,7 @@
 package com.example;
 
-import dao.DAOImpl;
-import dao.IDao;
-import metier.MetierImpl;
+import com.example.dao.IDao;
+import com.example.metier.MetierImpl;
 import org.junit.Assert;
 import org.junit.Test;
 

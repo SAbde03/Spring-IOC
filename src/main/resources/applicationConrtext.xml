@@ -5,13 +5,13 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="dao" class="dao.DAOImpl"></bean>
+    <bean id="dao" class="com.example.dao.DAOImpl"></bean>
 
 
-    <bean id="dao2" class="dao.DAOImpl2"></bean>
+    <bean id="dao2" class="com.example.dao.DAOImpl2"></bean>
 
 
-    <bean id="metier" class="metier.MetierImpl">
+    <bean id="metier" class="com.example.metier.MetierImpl">
 
         <property name="dao" ref="dao2"></property>
     </bean>

@@ -1,10 +1,10 @@
-package dao;
+package com.example.dao;
 
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-@Component("dao")
+@Component("com/example/dao")
 @Profile("prod")
 public class DAOImpl implements IDao {
 
